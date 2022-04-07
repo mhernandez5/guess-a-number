@@ -22,8 +22,8 @@ function randomNum() {
     let ran = Math.floor(Math.random() * 10);
     let x = document.getElementById("random");
     x.innerHTML = ran;
-    x.style.backgroundColor = "purple";
-    x.style.color = "blue";
+    x.style.backgroundColor = "turquoise";
+    x.style.color = "black";
     x.style.padding = "20px";
     x.style.textAlign = "center";
     return ran;
@@ -33,8 +33,8 @@ function userNumber() {
     let user = document.getElementById("getNumber").value;
     let y = document.getElementById("userNumber");
     y.innerHTML = user;
-    y.style.color = "purple";
-    y.style.backgroundColor = "blue";
+    y.style.color = "white";
+    y.style.backgroundColor = "turquoise";
     y.style.padding = "20px";
     y.style.textAlign = "center";
     return user;
@@ -48,34 +48,34 @@ function compareNumbers() {
     let c = document.getElementById("counter");
 
     if (a!= b) {
-        z.innerHTML = "Numbers are not the same. Computer got"  + b + ", and user got"  + a;
-        z.style.color = "black";
-        z.style.backgroundColor = "red";
+        z.innerHTML = "Numbers are not the same. Computer got "   +  b  +  ", and user got "   +  a;
+        z.style.color = "white";
+        z.style.backgroundColor = " turquoise";
         z.style.padding = "20px";
         z.style.textAlign = "center";
         counter++
-        c.innerHTML =  "you have tried" + counter + "times."
+        c.innerHTML =  "You have tried " + counter + " times."
         c.style.color = "white";
-        c.style.backgroundColor = "green";
+        c.style.backgroundColor = " turquoise";
         c.style.padding = "20px";
         c.style.textAlign = "center";
-        document.querySelector("body").style.backgroundColor = "bule"
+        document.querySelector("body").style.backgroundColor = "turquoise"
 
 
     }else if (a == b) {
-        z.innerHTML = "Numbers are the same. Computer got"  + b + ", and user got"  + a;
-        z.style.color = "black";
-        z.style.backgroundColor = "#00ff00";
+        z.innerHTML = "Numbers are the same. Computer got " +  b  +  ", and user got "   +  a ;
+        z.style.color = "white";
+        z.style.backgroundColor = " #00a37d";
         z.style.padding = "20px";
         z.style.textAlign = "center";
         c.innerHTML = "you have tried "
  + counter + "times to get it rigth"
         c.style.color = "white";
-        c.style.backgroundColor = "#00ff00";
+        c.style.backgroundColor = "turquoise";
         c.style.padding = "20px";
         c.style.textAlign = "center";
         counter = 0;
-        document.querySelector("body").style.backgroundColor = "black"
+        document.querySelector("body").style.backgroundColor = "turquoise"
     }
 
     resetInput();

@@ -10,21 +10,25 @@
 
 #paragraph{
     margin-left: 20px;
-    background-color: darkblue;
-    color: darkgrey;
+    background-color:  turquoise;
+    color: white;
     padding: 30px;
 }
 
 .header{
-    background-color: darkorange;
-    color: white;
+    background-color:  turquoise;
+    color:white;
     padding: 20px;
     text-align: center;
 }
 
 .instructions{
     background-color: turquoise;
-    color: black;
+    color: white;
     padding: 20px;
     text-align: center;
+}
+
+body {
+    background-color: turquoise;  
 }
